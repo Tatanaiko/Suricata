@@ -1,0 +1,89 @@
+
+/*  Colores */
+:root {
+    --black: rgb(33, 37, 41);
+    --white: rgb(255, 255, 255);
+    --pink: rgb(232, 62, 140);
+    --info: rgb(23, 162, 184);
+}
+
+/* Tipografía */
+.open-sans-regular {
+    font-weight: 400;
+}
+
+.open-sans-bold {
+    font-weight: 700;
+    color: #707070;
+}
+
+.navbar {
+    background-color: var(--pink);
+    padding: 0;
+    height: 5rem;
+    margin-right: 0;
+    margin-right: 0; /* Eliminar margen derecho */
+    margin-left: 0; /* Eliminar margen izquierdo */
+    padding-right: 0; /* Eliminar relleno derecho */
+    padding-left: 0;
+}
+
+.container-fluid {
+    max-width: 82.5rem; /* 1320px / 16px */
+    padding-right: 30px; /* 140px / 16px */
+    padding-left: 30px; /* 140px / 16px */
+}
+
+.container-fluid img {
+    width: 8.25rem; /* 132px / 16px */
+    height: 3.3125rem; /* 53px / 16px */
+}
+
+h1 {
+    font-size: 3.75rem; /* 60px / 16px */
+    margin-bottom: 4.8125rem; /* 77px / 16px */
+    margin-top: 4.8125rem; /* 77px / 16px */
+}
+
+@media (max-width: 768px) {
+    h1 {
+    font-size: 35px; /* Tamaño ajustado para dispositivos más pequeños */
+    margin-bottom: 2rem; /* 77px / 16px */
+    margin-top: 2rem; /* 77px / 16px */
+    }
+}
+
+.card img {
+    width: 15.5rem; /* 248px / 16px */
+    height: 8.25rem; /* 132px / 16px */
+}
+
+.card-body {
+    height: 7.375rem; /* 118px / 16px */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border: 0.0625rem solid #DDDDDD; /* 1px / 16px */
+}
+
+.list-group-item a {
+    text-decoration: none;
+}
+
+.icons-section {
+    background-color: var(--info);
+    height: 10.625rem; /* 170px / 16px */
+}
+
+h2 {
+    font-size: 2.5rem; /* 40px / 16px */
+}
+
+footer {
+    background-color: var(--pink);
+    height: 11.5rem; /* 184px / 16px */
+}
+
+footer img {
+    width: 3.3125rem; /* 53px / 16px */
+    height: 6.25rem; /* 100px / 16px */
+}
